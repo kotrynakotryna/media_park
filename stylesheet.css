@@ -1,0 +1,139 @@
+body {
+    font-family: 'Open Sans';
+}
+
+.header {
+    background-color: #584b3b;
+    padding-bottom: 40px;
+}
+
+.menu {
+    padding-top: 40px;
+}
+
+.menu_link {
+    padding-left: 30px;
+    color: #f7f3ec;
+    font-size: 12px
+}
+
+.menu_logo {
+    padding-left: 40px;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  .logo {
+    display: inline-block;
+  }
+  .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .logo {
+    margin: 0 auto;
+    display: block;
+  }
+  .right {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+.benefits_photo {
+    
+}
+
+.benefits_arrows {
+    
+}
+
+.benefits_no {
+    writing-mode: vertical-lr;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 10px;
+}
+
+.benefits_button {
+    
+    
+}
+
+.benefits_section{
+    background-color: #f7f3ec;
+    border-collapse: collapse;
+}
+
+.benefits_content{
+    background-color: gray;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+
+}
+
+.benefits_text{
+    min-width: 250;
+    padding: 20px;
+    color: #f7f3ec;
+}
+
+.benefits_picture {
+    min-width: 250;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.benefits_picture > img{
+    width: 400px;
+}
+
+.benefits_title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: "Open Sans";
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #584b3b;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    background-color: #f7f3ec;
+}
+
+tt {
+    border: 1px solid #584b3b;
+    text-align: left;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #584b3b;
+}
+
+
