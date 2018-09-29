@@ -258,7 +258,7 @@ a.active_link {
     margin: auto;
 }
 
-.text {
+.slideshow_title {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -266,6 +266,19 @@ a.active_link {
     bottom: 8px;
     width: 100%;
     text-align: center;
+    top: 270px;
+    font-size: 30px;
+}
+
+.slideshow_text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
 }
 
 
@@ -282,6 +295,9 @@ a.active_link {
 
 .dots_position {
     padding: 20px;
+    position: absolute;
+    padding-top: 500px;
+
 }
 
 .active, .dot:hover {
