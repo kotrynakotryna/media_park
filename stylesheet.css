@@ -129,15 +129,12 @@ a.active_link {
     padding-top: 40px;
 }
 
-.benefits_picture {
-    min-width: 250;
-    padding-left: 150px;
-    padding-top: 30px;
-}
+
 
 .benefits_picture > img{
-    width: 40%;
+    width: 35%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
 }
 
 * {
@@ -156,12 +153,6 @@ a.active_link {
 .col-2 {width: 10%;height: 600px; }
 .col-3 {width: 40%;height: 600px;}
 .col-4 {width: 40%;}
-
-#abs2 {
-    position: absolute;
-    top: 230px;
-    left: 150px;
-}
 
 
 .location{
