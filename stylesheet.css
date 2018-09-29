@@ -136,7 +136,7 @@ a.active_link {
 }
 
 .benefits_picture > img{
-    width: 70%;
+    width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -252,6 +252,7 @@ a.active_link {
     justify-content: center;
     align-items: center;
     width: 15%;
+    position: absolute;
 }
 
 
@@ -296,7 +297,6 @@ a.active_link {
     background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
