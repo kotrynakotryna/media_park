@@ -86,7 +86,7 @@ a.active_link {
 }
 
 .benefits_button {
-    background-color: #584b3b; /* Green */
+    background-color: #584b3b; 
     border-color: #f7f3ec;
     border-width: thin;
     color: #f7f3ec;
@@ -260,15 +260,12 @@ a.active_link {
     .mySlides {display: none}
     img {vertical-align: middle;}
 
-/* Slideshow container */
 .slideshow-container {
     max-width: 100%;
     position: relative;
     margin: auto;
 }
 
-
-/* Caption text */
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -279,7 +276,7 @@ a.active_link {
     text-align: center;
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
     height: 5px;
@@ -343,21 +340,20 @@ a.active_link {
 }
 
 input[type=text] {
-    width: 50%;
+    width: 70%;
     padding: 10px 0px;
-    margin: 20px;
+    margin-top: 40px;
     box-sizing: border-box;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #ece2d1;
-    color: white;
 }
 
 
 .contacts{
     background-color: #ece2d1;
     border-collapse: collapse;
-    height: 900px;
+    height: 1000px;
 }
 
 
@@ -412,15 +408,37 @@ input[type=text] {
     margin: 50px;
     background-color: #584b3b;
     width: 400px;
-    height: 600px;
+    height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        color: white;
+}
 
+.form_section:after{
+      content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 form {
     position: absolute;
     padding: 50px;
     margin: 50px;
-    color: white;
+    color: #f7f3ec;
+}
+
+.submit_button {
+    position: absolute;
+    background-color: #879f55; 
+    border-color: #879f55;
+    color: #f7f3ec;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
 }
