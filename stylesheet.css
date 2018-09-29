@@ -343,12 +343,14 @@ a.active_link {
 }
 
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 50%;
+    padding: 10px 0px;
+    margin: 20px;
     box-sizing: border-box;
+    background-color: transparent;
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 1px solid #ece2d1;
+    color: white;
 }
 
 
@@ -404,9 +406,21 @@ input[type=text] {
 
 }
 
-.form {
+.form_section {
     position: absolute;
     padding: 50px;
     margin: 50px;
-    color: #584b3b;
+    background-color: #584b3b;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: white;
+
+}
+
+form {
+    position: absolute;
+    padding: 50px;
+    margin: 50px;
+    color: white;
 }
