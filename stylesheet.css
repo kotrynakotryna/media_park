@@ -61,6 +61,7 @@ a.active_link {
     padding-left: 60px;
     font-size: 30px;
     font-family: "Open Sans";
+    color: #584b3b;
 }
 
 .benefits_arrows {
@@ -134,7 +135,6 @@ a.active_link {
 .benefits_picture > img{
     width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: absolute;
 }
 
 * {
@@ -224,6 +224,7 @@ a.active_link {
 
 .landscape >img{
     max-height: 800px;
+    
 }
 
 
@@ -294,9 +295,9 @@ a.active_link {
 }
 
 .dots_position {
-    padding: 20px;
-    position: absolute;
-    padding-top: 500px;
+    position: relative;
+    bottom: 300px;
+    height: 0px;
 
 }
 
@@ -322,16 +323,7 @@ a.active_link {
 }
 
 
-.imgA1 {
-    position: relative;
-
-}
-.imgB1 {
-	position: absolute;
-}
-
 .container_test {
-    position: absolute;
     background-color: #584b3b;
     margin-left: 0px;
     margin-bottom: 0px;
@@ -360,7 +352,6 @@ input[type=text] {
 .contacts{
     background-color: #ece2d1;
     border-collapse: collapse;
-    height: 1000px;
 }
 
 
@@ -381,12 +372,11 @@ input[type=text] {
 .con-col-4 {width: 10%;height: 600px;}
 
 .contacts_section {
+    padding-top: 100px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: #f7f3ec;
     height: 900px;
-
-
 }
 
 .contacts_content {
@@ -394,8 +384,6 @@ input[type=text] {
     margin-left: 0px;
     margin-bottom: 0px;
     border-collapse: collapse;
-    position: relative;
-
 }
 
 
@@ -410,10 +398,6 @@ input[type=text] {
 }
 
 .form_section {
-    position: absolute;
-    padding: 50px;
-    margin: 50px;
-    margin-top: 120px;
     background-color: #584b3b;
     width: 400px;
     height: 500px;
@@ -421,15 +405,12 @@ input[type=text] {
 }
 
 form {
-    position: absolute;
     padding: 50px;
     margin: 50px;
     color: #f7f3ec;
-    margin-top: 120px;
 }
 
 .submit_button {
-    position: absolute;
     background-color: #879f55; 
     border-color: #879f55;
     color: #f7f3ec;
@@ -450,26 +431,28 @@ form {
     padding-top: 10px;
     padding-bottom: 60px;
     padding-left: 60px;  
-    position: absolute;
 }
 
 .contacts_image > img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 15%;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.contact_text_block{
+    padding-left: 60px;
 }
 
 .contacts_text{
-    padding-top: 220px;
-    padding-bottom: 60px;
-    padding-left: 60px;  
-    position: absolute;
+    display: inline-block;
     font-size: 15px;
 }
 
-.contacts_text2{
-    padding-top: 220px;
-    padding-bottom: 60px;
-    padding-left: 250px;  
-    position: absolute;
-    font-size: 15px;
+footer {
+    background-color: #584b3b;
+    padding: 10px;
+}
+
+.footer_text {
+    color: #f7f3ec;
 }
