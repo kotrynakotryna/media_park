@@ -38,7 +38,7 @@ a.active_link {
     padding-left: 60px;
     font-size: 30px;
     font-family: "Open Sans";
-    color: #584b3b;
+    color: #6A655D;
 }
 
 .benefits_arrows {
@@ -272,7 +272,6 @@ a.active_link {
     position: relative;
     bottom: 300px;
     height: 0px;
-
 }
 
 .active, .dot:hover {
@@ -296,16 +295,6 @@ a.active_link {
     to {opacity: 1}
 }
 
-
-.container_test {
-    background-color: #584b3b;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    border-collapse: collapse;
-}
-
-
-
 input[type=text] {
     width: 250px;
     padding: 20px 0px;
@@ -322,15 +311,6 @@ input[type=text] {
     border-collapse: collapse;
 }
 
-
-* {
-    box-sizing: border-box;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 [class*="con-col-"] {
     float: left;
 }
@@ -414,7 +394,7 @@ form {
 .contacts_text{
     display: inline-block;
     margin-right: 35px;
-
+    color: #46433e;
 }
 
 .contacts_text > p{
@@ -422,12 +402,11 @@ form {
 }
 
 .contacts_text > a{
-    font-size: 12px;
-    
+    font-size: 12px; 
 }
 
 footer {
-    background-color: #584b3b;
+    background-color: #302D28;
 }
 
 .footer_text {
